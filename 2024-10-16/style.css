@@ -1,0 +1,50 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Class Selector */
+.c {
+    color: #3498db;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #dff0ff;
+    padding: 15px;
+    border: 2px solid #3498db;
+}
+
+/* ID Selector */
+#i {
+    background-color: #f4a460;
+    color: white;
+    padding: 20px;
+    border: 3px dashed #8b4513;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Descendant Selector */
+div p {
+    color: #555;
+    margin: 20px;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #333;
+}
+
+/* Direct Child Selector */
+div>a {
+    display: inline-block;
+    color: #e74c3c;
+    background-color: #ffe0e0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
